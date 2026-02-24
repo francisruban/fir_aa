@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Invitation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <div class="wrapper" id="envelope-wrapper" onclick="openLetter()">
+      <div class="tap-hint">Tap to Open</div>
+      <div class="realistic-envelope">
+        <div class="paper-grain"></div>
+        <div class="flap-left"></div>
+        <div class="flap-right"></div>
+        <div class="flap-bottom"></div>
+        <div class="flap-top">
+          <div class="flap-top-shape"></div>
+          <div class="realistic-seal">
+            <div class="seal-emboss">FIR<br />&<br />AA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="letter" id="full-screen-letter">
+      <div class="close-btn" onclick="closeLetter()">✖</div>
+      <div id="countdown" class="countdown-timer">
+        <div class="time-segment">
+          <span id="days">00</span><small>Days</small>
+        </div>
+        <div class="time-segment">
+          <span id="hours">00</span><small>Hours</small>
+        </div>
+        <div class="time-segment">
+          <span id="mins">00</span><small>Mins</small>
+        </div>
+        <div class="time-segment">
+          <span id="secs" class="tick">00</span><small>Sec</small>
+        </div>
+      </div>
+
+      <h3>Together with their families</h3>
+      <h1>
+        S. Francis Ignacious Ruban <br />&<br />
+        J. Annet Aasiha
+      </h1>
+      <p>Request the honor of your presence at their wedding ceremony on</p>
+
+      <div class="details">
+        Sunday, May 03, 2026<br />
+        10:30 A.M.
+      </div>
+
+      <div class="location">
+        <p>
+          <strong>AT ST. JUDE'S CHURCH</strong><br />Millerpuram, Thoothukudi
+        </p>
+        <div style="margin: 8px 0; color: #a67c00; opacity: 0.6">♦</div>
+        <p>
+          THE CELEBRATION CONTINUES AT<br /><strong>Roopavathi Palace</strong>
+        </p>
+      </div>
+
+      <div class="btn-group">
+        <div class="map-links">
+          <a
+            href="https://www.google.com/maps/place/St.+Jude's+Parish+Shrine-+Pathinathapuram+%E0%AE%AA%E0%AF%81%E0%AE%A9%E0%AE%BF%E0%AE%A4+%E0%AE%AF%E0%AF%82%E0%AE%A4%E0%AE%BE+%E0%AE%A4%E0%AE%A4%E0%AF%87%E0%AE%AF%E0%AF%81+%E0%AE%A4%E0%AE%BF%E0%AE%B0%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%B2%E0%AE%AE%E0%AF%8D+-+%E0%AE%AA%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AE%BF%E0%AE%A8%E0%AE%BE%E0%AE%A4%E0%AE%AA%E0%AF%81%E0%AE%B0%E0%AE%AE%E0%AF%8D/@8.7926813,78.1197969,17z/data=!3m1!4b1!4m6!3m5!1s0x3b03efc52b417fd9:0xbb5807baaa81d1f6!8m2!3d8.792676!4d78.1223718!16s%2Fg%2F1td79l8g?entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            class="map-btn"
+            >📍 Church Map</a
+          >
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Roopavathi+Palace+Millerpuram+Tuticorin"
+            target="_blank"
+            class="map-btn"
+            >📍 Palace Map</a
+          >
+        </div>
+        <a
+          href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+of+Francis+Ignacious+Ruban+%26+Annet+Aasiha&dates=20260503T050000Z/20260503T170000Z&details=Join+us+for+our+wedding+celebration!&location=St.+Jude%27s+Church,+Millerpuram,+Thoothukudi&sf=true&output=xml"
+          target="_blank"
+          class="calendar-btn"
+          >Add to Calendar</a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
